@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <img src="./image/logo.png" alt="Kalam" class="logo-img" />
+          <div>
+            <h1 class="brand-name">Kalam Ahmed</h1>
+            <p class="brand-small">Frontend Developer • HTML • CSS • JS</p>
+          </div>
+        </div>
+
+        <nav class="nav" id="nav">
+          <ul class="nav-list" id="navList">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <a class="btn outline" href="./image/resume.pdf" download
+            >Download CV</a
+          >
+          <button class="nav-toggle" id="navToggle">&#9776;</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero-left">
+          <div class="profile-card">
+            <img
+              src="./image/logo.png"
+              alt="Kalam profile"
+              class="profile-photo"
+            />
+            <h3>Kalam Ahmed</h3>
+            <p class="muted">BCA Student</p>
+            <div class="profile-actions">
+              <a href="./image/resume.pdf" download class="btn small"
+                >Download CV</a
+              >
+              <!-- <a href="#contact" class="btn small ghost">Hire Me</a> -->
+            </div>
+            <ul class="contact-info">
+              <li>📍 Maharashtra, India</li>
+              <li>
+                ✉️ <a href="kalambossn6@gmail.com">kalambossn6@gmail.com</a>
+              </li>
+              <li>
+                ✉️
+                <a href="iamthekalamboss@gmail.co">iamthekalamboss@gmail.com</a>
+              </li>
+              <li>📞 <a href="tel:+919554894283">+91 9554894283</a></li>
+              <li>📞 <a href="tel:+918318122535">+91 8318122535</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="hero-right">
+          <h2>Hello, I'm <span class="accent">Kalam Ahmed</span></h2>
+          <p class="lead">
+            Aspiring Frontend Developer — I build fast, responsive websites with
+            clean UI using HTML, CSS & JavaScript.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="#contact" class="btn ghost">Contact Me</a>
+          </div>
+
+          <div class="socials">
+            <a href="#" target="_blank" aria-label="GitHub" class="social"
+              >GitHub</a
+            >
+            <a href="#" target="_blank" aria-label="LinkedIn" class="social"
+              >LinkedIn</a
+            >
+            <a href="#" target="_blank" aria-label="Instagram" class="social"
+              >Instagram</a
+            >
+            <a href="mailto:your@email.com" class="social">Email</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div>
+            <p>
+              I am a passionate web developer learning modern tools and building
+              practical projects. I enjoy creating responsive, accessible
+              interfaces and improving performance. Currently focused on
+              JavaScript and Python while strengthening fundamentals in HTML &
+              CSS.
+            </p>
+            <ul class="about-list">
+              <li><strong>Education:</strong> BCA</li>
+              <li>
+                <strong>Interests:</strong> Web dev, UI/UX, Problem solving
+              </li>
+              <!-- <li><strong>Availability:</strong> Freelance / Part-time</li> -->
+            </ul>
+            <div class="cta-row">
+              <a class="btn" href="./image/resume.pdf" download
+                >Download Resume</a
+              >
+              <a class="btn ghost" href="#projects">See Projects</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== Skills Section ========== -->
+      <section class="skills" id="skills">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <p class="section-subtitle">Here are the technologies I work with:</p>
+
+          <div class="skills-grid">
+            <div class="skill-card">
+              <h3>Frontend</h3>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+
+            <div class="skill-card">
+              <h3>Other Tools</h3>
+              <ul>
+                <li>Git & GitHub</li>
+                <li>VS Code</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== Projects Section ========== -->
+      <section class="projects" id="projects">
+        <div class="container">
+          <h2 class="section-title">Projects</h2>
+          <p class="section-subtitle">Some of my recent works:</p>
+
+          <!-- Project Card 1 -->
+          <!-- <div class="project-card big-card">
+            <img
+              src="./image/furniture.png"
+              alt="Project 3"
+              class="project-img"
+            />
+            <div class="project-content">
+              <h3>Furniture Website</h3>
+              <p>
+                Developed a full-stack e-commerce platform with product listing,
+                cart, checkout, and admin panel. Tech Used: HTML, CSS,
+                JavaScript, Node.js
+              </p>
+              <a href="" class="btn-project">View Project</a>
+            </div>
+          </div> -->
+
+          <div class="projects-grid">
+            <!-- Project Card 2 -->
+            <div class="project-card">
+              <img
+                src="./image/to do app.png"
+                alt="Project 1"
+                class="project-img"
+              />
+              <div class="project-content">
+                <h3>TO Do App</h3>
+                <p>Simple To Do App App Using HTML, CSS And JavaScript.</p>
+                <a
+                  href="https://github.com/Thekalamboss/to-do-app.git"
+                  class="btn-project"
+                  >View Project</a
+                >
+              </div>
+            </div>
+
+            <!-- Project Card 3 -->
+            <div class="project-card">
+              <img
+                src="./image/weather app.png"
+                alt="Project 2"
+                class="project-img"
+              />
+              <div class="project-content">
+                <h3>Weather App</h3>
+                <p>Simple Weather App Using HTML, CSS And JavaScript</p>
+                <a
+                  href="https://github.com/Thekalamboss/weather-app.git"
+                  class="btn-project"
+                  >View Project</a
+                >
+              </div>
+            </div>
+
+            <!-- Project Card 4 -->
+            <div class="project-card">
+              <img
+                src="./image/portfolio.png"
+                alt="Project 3"
+                class="project-img"
+              />
+              <div class="project-content">
+                <h3>Portfolio Website</h3>
+                <p>Responsive personal portfolio</p>
+                <a href="#" class="btn-project">View Project</a>
+              </div>
+            </div>
+
+            <!-- Project Card 5 -->
+            <div class="project-card">
+              <img
+                src="./image/quiz app.png"
+                alt="Project 3"
+                class="project-img"
+              />
+              <div class="project-content">
+                <h3>Quiz App</h3>
+                <p>Simple Quiz App Using HTML, CSS And JavaScript</p>
+                <a
+                  href="https://github.com/Thekalamboss/Quiz_app.git"
+                  class="btn-project"
+                  >View Project</a
+                >
+              </div>
+            </div>
+            <!-- Project Card 6 -->
+            <div class="project-card">
+              <img src="./image/calc.png" alt="Project 3" class="project-img" />
+              <div class="project-content">
+                <h3>calculator</h3>
+                <p>Simple calculator Using HTML, CSS And JavaScript</p>
+                <a
+                  href="https://github.com/Thekalamboss/calculator.git"
+                  class="btn-project"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section class="experience" id="experience">
+        <div class="container">
+          <h2 class="section-title">Experience</h2>
+          <p class="fresher-note">
+            💡 I'm a fresher, so here are my academic & project experiences:
+          </p>
+
+          <div class="experience-list">
+            <div class="exp-card">
+              <h3>Web Development Training</h3>
+              <span class="exp-duration">Jan 2025 - Mar 2025</span>
+              <p>
+                Completed a hands-on training program in HTML, CSS And
+                JavaScript. Built multiple mini-projects including a To-Do App
+                and Weather App.
+              </p>
+            </div>
+
+            <div class="exp-card">
+              <h3>Furniture E-commerce Website (College Project)</h3>
+              <span class="exp-duration">2025</span>
+              <p>
+                Developed a full-stack e-commerce platform with product listing,
+                cart, checkout, and admin panel. Tech Used:
+                <b>HTML, CSS, JavaScript, Node.js</b>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact section  -->
+
+      <section id="contact">
+        <div class="contact-container">
+          <h2>Contact Me</h2>
+          <p>
+            I'm open to collaborations, freelance work, or just a friendly
+            hello! Reach out using the form below.
+          </p>
+
+          <div class="contact-content">
+            <!-- Contact Form -->
+            <form class="contact-form" id="contactForm">
+              <input type="text" id="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                id="message"
+                placeholder="Your Message"
+                rows="5"
+                required
+              ></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+              <div class="info-item">
+                <p>Kurla, Bharti Nagar</p>
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.123456789!2d72.865123!3d19.066123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7b123456789%3A0xabcdef123456789!2sKurla%2C+Bharti+Nagar!5e0!3m2!1sen!2sin!4v1695030000000!5m2!1sen!2sin"
+                  width="100%"
+                  height="250"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                >
+                </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+      <footer class="site-footer">
+        <div class="container footer-content">
+          <!-- Left Side -->
+          <div class="footer-brand">
+            <h3>Kalam Ahmed</h3>
+            <p>Frontend Developer | Fresher</p>
+          </div>
+
+          <!-- Middle Quick Links -->
+          <ul class="footer-links">
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <!-- Right Side Socials -->
+          <div class="footer-socials">
+            <a href="https://github.com/Thekalamboss" target="_blank">GitHub</a>
+          </div>
+        </div>
+
+        <!-- Bottom -->
+        <div class="footer-bottom">
+          <p>© 2025 Copyright. All rights reserved..</p>
+        </div>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
